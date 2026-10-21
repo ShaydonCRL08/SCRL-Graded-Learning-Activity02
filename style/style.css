@@ -1,0 +1,25 @@
+#square1 {
+    position: absolute;
+    background-color: lightcoral;
+    border: 5px solid black;
+    height: 10vw;   
+    width: 10vw;
+}
+#square2 {
+    position: absolute;
+    background-color: lightgreen;
+    border: 5px solid pink;
+    height: 20vw;
+    left: 10vw;
+    top: 10vw;
+    width: 20vw;
+}
+#square3 {
+    position: absolute;
+    background-color: lightblue;
+    border: 5px solid purple;
+    height: 40vw;
+    left: 30vw;
+    top: 30vw;
+    width: 40vw;
+}
