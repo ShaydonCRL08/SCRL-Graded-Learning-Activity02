@@ -1,25 +1,36 @@
-#square1 {
+:root {
+    --unit: calc(100vmin / 7)
+}
+* {
+    box-sizing: border-box;  
+}
+#container {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+#square1, #square2, #square3{
     position: absolute;
+}
+#square1 {
     background-color: lightcoral;
     border: 5px solid black;
-    height: 10vw;   
-    width: 10vw;
+    height: var(--unit);   
+    width: var(--unit);
 }
 #square2 {
-    position: absolute;
     background-color: lightgreen;
-    border: 5px solid pink;
-    height: 20vw;
-    left: 10vw;
-    top: 10vw;
-    width: 20vw;
+    border: 10px solid pink;
+    height: calc(var(--unit) * 2);
+    left: var(--unit);
+    top: var(--unit);
+    width: calc(var(--unit) * 2);
 }
 #square3 {
-    position: absolute;
     background-color: lightblue;
-    border: 5px solid purple;
-    height: 40vw;
-    left: 30vw;
-    top: 30vw;
-    width: 40vw;
+    border: 20px solid purple;
+    height: calc(var(--unit) * 4);
+    left: calc(var(--unit) * 3);
+    top: calc(var(--unit) * 3);
+    width: calc(var(--unit) * 4);
 }
